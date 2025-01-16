@@ -28,7 +28,6 @@ Open your browser and navigate to http://localhost:5173. You should see the app 
 ### 2. Revenue Distribution
 **Query Examples:**
 - "Show revenue distribution"
-- "What's the revenue breakdown?"
 - "Display revenue distribution across products"
 
 **Returns:** A pie chart showing revenue distribution across Products A-D and Others.
