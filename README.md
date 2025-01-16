@@ -2,6 +2,19 @@
 ## Overview
 The Rumi Chat visualization system allows users to interact with various data visualizations through natural language queries. The system supports multiple visualization types including line charts, pie charts, bar charts, tables, and rich text content.
 
+# Installation
+
+To install the project dependencies, follow these steps:
+
+```
+cd Rumi_Chat
+npm install
+npm run dev
+```
+
+
+Open your browser and navigate to http://localhost:5173. You should see the app running. Any changes you make to the source files will automatically be reflected in the browser.
+
 ## Available Visualizations
 
 ### 1. Sales Trends
