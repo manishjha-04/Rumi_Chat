@@ -89,3 +89,29 @@ Open your browser and navigate to http://localhost:5173. You should see the app 
 - `table`: Structured data presentation
 - `text`: Formatted text content
 - `images`: Media gallery
+
+## Project Structure
+```
+├─ src/
+│   ├─ components/     # Contains reusable UI components
+│   │   ├─ visualizations/  # Contains visualization components
+│   │   │   ├─ Charts.jsx
+│   │   │   ├─ DataTable.jsx
+│   │   │   ├─ MediaDisplay.jsx
+│   │   │   ├─ RichTextRenderer.jsx
+│   │   │   └─ VisualizationRenderer.jsx
+│   ├─ data/           # Contains mock data and data-related utilities
+│   │   ├─ mockVisualizations.js
+│   ├─ pages/          # Contains individual page components
+│   ├─ layouts/        # Contains layout components for structuring pages
+│   ├─ app.jsx         # Main app component that wraps routes and layout
+│   ├─ routes.jsx      # Defines application routes and their corresponding components
+│   └─ main.jsx        # Entry point of the application, where the app is rendered
+├─ public/             # Contains public assets like index.html and favicon
+├─ tests/              # Contains test files for the application
+├─ .gitignore          # Specifies files and folders to be ignored by Git
+├─ LICENSE             # License information for the project
+├─ package.json        # Project dependencies and scripts
+├─ README.md           # Project documentation
+├─ vercel.json         # Vercel config for production
+└─ vite.config.js      # Configuration for Vite build and dev server
